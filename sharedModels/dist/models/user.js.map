@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "user.js",
+  "sourceRoot": "",
+  "sources": [
+    "../../models/user.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,MAAqB,IAAI;IAKrB,YAAY,EAAW,EAAE,IAAa,EAAE,MAAe;QACnD,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;QACb,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;IACzB,CAAC;CACJ;AAVD,uBAUC"
+}

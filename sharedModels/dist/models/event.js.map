@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "event.js",
+  "sourceRoot": "",
+  "sources": [
+    "../../models/event.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,IAAK,KAOJ;AAPD,WAAK,KAAK;IACN,4BAAmB,CAAA;IACnB,kCAAyB,CAAA;IACzB,sCAA2B,CAAA;IAC3B,4BAAiB,CAAA;IACjB,4CAAiC,CAAA;IACjC,sCAA2B,CAAA;AAC/B,CAAC,EAPI,KAAK,KAAL,KAAK,QAOT;AAED,kBAAe,KAAK,CAAA"
+}

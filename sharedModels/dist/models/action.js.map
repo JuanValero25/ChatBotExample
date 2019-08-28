@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "action.js",
+  "sourceRoot": "",
+  "sources": [
+    "../../models/action.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,IAAK,MAEJ;AAFD,WAAK,MAAM;IACP,uCAAM,CAAA;AACV,CAAC,EAFI,MAAM,KAAN,MAAM,QAEV;AAED,kBAAe,MAAM,CAAA"
+}

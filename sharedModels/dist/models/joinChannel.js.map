@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "joinChannel.js",
+  "sourceRoot": "",
+  "sources": [
+    "../../models/joinChannel.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,MAAqB,WAAW;IAK5B,YAAY,MAAc,EAAE,YAAoB;QAC5C,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;QACrB,IAAI,CAAC,YAAY,GAAG,YAAY,CAAC;IACrC,CAAC;CACJ;AATD,8BASC"
+}
