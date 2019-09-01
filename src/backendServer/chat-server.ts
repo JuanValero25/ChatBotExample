@@ -19,10 +19,7 @@ export class ChatServer {
         this.mockDB = new MockRepository();
         this.createApp();
         this.listen();
-        (async () => {
-            await this.initRabitMQCliente();
-            return this; // when done
-        })();
+        this.initRabitMQCliente();
     }
 
     public getApp(): express.Application {
@@ -36,12 +33,12 @@ export class ChatServer {
         this.io = SocketIO(this.server);
     }
 
-    private async initRabitMQCliente() {
-        await connect('amqp://localhost', async (error0, connection) => {
+    private  initRabitMQCliente() {
+         connect('amqp://localhost',  (error0, connection) => {
             if (error0) {
                 throw error0;
             }
-            await connection.createChannel(async (error1, channel) => {
+            connection.createChannel( (error1, channel) => {
                 if (error1) {
                     throw error1;
                 }
@@ -66,7 +63,7 @@ export class ChatServer {
                 socket.join(roomName.userID);
                 const messages = this.mockDB.getMeesagesFromchatRoom(roomName.chatRoomName);
                 if (messages) {
-                    this.io.to(roomName.userID).emit(Event.MESSAGE_BULK, messages)
+                    this.io.to(roomName.userID).emit(Event.MESSAGE_BULK, messages);
                 }
 
             });
